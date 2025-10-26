@@ -19,28 +19,35 @@
       background-color: #ffffff;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
       padding: 10px 20px;
       z-index: 1000;
     }
-    header h1 {
-      margin: 0;
-      font-size: 20px;
+    .title {
+      font-size: 32px;
       color: #003366;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     nav a {
-      margin-left: 10px;
+      margin: 0 8px;
       text-decoration: none;
       font-weight: bold;
       color: #ff6600;
     }
     nav img {
-      width: 24px;
+      width: 20px;
       vertical-align: middle;
+      margin-right: 4px;
     }
     main {
-      padding: 100px 20px 20px 20px;
+      padding: 80px 20px 20px 20px;
     }
     section {
       margin-top: 40px;
@@ -50,9 +57,6 @@
     h2 {
       color: #003366;
     }
-    .flag {
-      margin-right: 5px;
-    }
     strong {
       font-weight: bold;
     }
@@ -60,14 +64,14 @@
 </head>
 <body>
   <header>
-    <h1>Sisar One</h1>
+    <h1 class="title">Sisar One</h1>
     <nav>
       <a href="#en"><img src="https://flagcdn.com/us.svg" class="flag">English</a>
       <a href="#es"><img src="https://flagcdn.com/mx.svg" class="flag">Español</a>
       <a href="#pt"><img src="https://flagcdn.com/br.svg" class="flag">Português</a>
       <a href="#de"><img src="https://flagcdn.com/de.svg" class="flag">Deutsch</a>
       <a href="#fr"><img src="https://flagcdn.com/fr.svg" class="flag">Français</a>
-      <a href="#ja"><img src="https://flagcdn.com/jp.svg" class="flag">日本語</a>
+      <a href="#ja"><img src="https://flagcdn.com/jp.svg" class="flag">日本語&nbsp;&nbsp;</a>
     </nav>
   </header>
   <main>

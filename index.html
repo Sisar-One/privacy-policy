@@ -8,337 +8,414 @@
     body {
       font-family: Arial, sans-serif;
       background-color: #ffffff;
-      color: #003366;
+      color: #000000;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
-    h1, h2 {
-      color: #ff6600;
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      z-index: 1000;
     }
-    nav {
-      text-align: right;
-      margin-bottom: 20px;
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+      color: #003366;
     }
     nav a {
       margin-left: 10px;
       text-decoration: none;
       font-weight: bold;
-      color: #003366;
+      color: #ff6600;
     }
     nav img {
       width: 24px;
       vertical-align: middle;
+    }
+    main {
+      padding: 100px 20px 20px 20px;
     }
     section {
       margin-top: 40px;
       border-top: 1px solid #ccc;
       padding-top: 20px;
     }
+    h2 {
+      color: #003366;
+    }
     .flag {
       margin-right: 5px;
+    }
+    strong {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="#en"><img src="https://flagcdn.com/us.svg" class="flag">English</a>
-    <a href="#es"><img src="https://flagcdn.com/mx.svg" class="flag">Español</a>
-    <a href="#pt"><img src="https://flagcdn.com/br.svg" class="flag">Português</a>
-    <a href="#de"><img src="https://flagcdn.com/de.svg" class="flag">Deutsch</a>
-    <a href="#ja"><img src="https://flagcdn.com/jp.svg" class="flag">日本語</a>
-  </nav>
+  <header>
+    <h1>Sisar One</h1>
+    <nav>
+      <a href="#en"><img src="https://flagcdn.com/us.svg" class="flag">English</a>
+      <a href="#es"><img src="https://flagcdn.com/mx.svg" class="flag">Español</a>
+      <a href="#pt"><img src="https://flagcdn.com/br.svg" class="flag">Português</a>
+      <a href="#de"><img src="https://flagcdn.com/de.svg" class="flag">Deutsch</a>
+      <a href="#fr"><img src="https://flagcdn.com/fr.svg" class="flag">Français</a>
+      <a href="#ja"><img src="https://flagcdn.com/jp.svg" class="flag">日本語</a>
+    </nav>
+  </header>
+  <main>
 
-  <!-- English Section -->
   <section id="en">
-    <h1>Privacy Policy – Sisar One</h1>
-    <p><strong>Effective Date:</strong> October 2, 2025</p>
-    <p>This Privacy Policy applies to all mobile games published by Sisar One that include a link to this document, including but not limited to Arcade, Platformer, Casual, and Idle games available on Google Play.</p>
+  <h2>Privacy Policy</h2>
+  <p><strong>Effective Date:</strong> October 2, 2025</p>
+  <p>This Privacy Policy applies to all mobile games published by <strong>Sisar One</strong> that include a link to this document, including but not limited to Arcade, Platformer, Casual, and Idle games available on Google Play.</p>
 
-    <h2>1. Data Collected (Automatic Collection)</h2>
-    <p>The following types of data are collected automatically by our third-party provider when you use our games:</p>
-    <ul>
-      <li><strong>Device Advertising ID:</strong> A unique, user-resettable identifier used for advertising purposes.</li>
-      <li><strong>Non-Personally Identifiable Usage Data:</strong> Game session duration, level progression, device model, OS, and approximate location from IP address.</li>
-    </ul>
+  <h3>1. Data Collected (Automatic Collection)</h3>
+  <p>The following types of data are collected automatically by our third-party provider when you use our games:</p>
+  <ul>
+    <li><strong>Device Advertising ID:</strong> A unique, user-resettable identifier used for advertising purposes.</li>
+    <li><strong>Non-Personally Identifiable Usage Data:</strong> Game session duration, level progression, device model, operating system, and approximate geographic location derived from IP address.</li>
+  </ul>
 
-    <h2>2. Purpose of Data Use and Legal Basis</h2>
-    <table border="1" cellpadding="6">
-      <tr><th>Purpose of Use</th><th>Legal Basis (GDPR)</th></tr>
-      <tr><td>Advertising via Google AdMob</td><td>User Consent</td></tr>
-      <tr><td>App performance and analytics</td><td>Legitimate Interest</td></tr>
-    </table>
+  <h3>2. Purpose of Data Use and Legal Basis</h3>
+  <table border="1" cellpadding="6">
+    <tr><th>Purpose of Use</th><th>Legal Basis (GDPR)</th></tr>
+    <tr><td>Advertising via <strong>Google AdMob</strong></td><td>User Consent</td></tr>
+    <tr><td>App performance and analytics</td><td>Legitimate Interest</td></tr>
+  </table>
 
-    <h2>3. Data Controller Status</h2>
-    <p>Sisar One acts solely as the Publisher. We do not collect or process personal data.</p>
-    <p><strong>Data Controller:</strong> Google Ireland Limited (EEA, UK, Switzerland) and/or Google LLC.</p>
-    <p><strong>Disclaimer:</strong> By using the Service, you acknowledge that you are providing data to Google, not Sisar One.</p>
+  <h3>3. Data Controller Status and Responsibility</h3>
+  <p><strong>Sisar One</strong> acts solely as the Publisher. We do not independently collect, store, access, or process any Personally Identifiable Information (PII).</p>
+  <p><strong>Data Controller:</strong> For data protection law purposes, <strong>Google Ireland Limited</strong> (for users in the EEA, UK, and Switzerland) and/or <strong>Google LLC</strong> are the Data Controllers responsible for the collection, storage, and processing of the Advertising and Usage Information described above.</p>
+  <p><strong>Disclaimer:</strong> By using the Service, you acknowledge that you are providing data to <strong>Google</strong>, not <strong>Sisar One</strong>, for advertising purposes.</p>
 
-    <h2>4. International Transfers</h2>
-    <p>Data may be processed on servers outside your country by Google AdMob under BCRs or SCCs.</p>
+  <h3>4. International Data Transfers</h3>
+  <p>Data may be transferred and processed on servers located outside the user's country, including the United States and other jurisdictions, by <strong>Google AdMob</strong>. These transfers are secured by <strong>Google</strong> adhering to its Binding Corporate Rules (BCRs) or equivalent transfer mechanisms (e.g., Standard Contractual Clauses (SCCs)).</p>
 
-    <h2>5. Regional Disclosures</h2>
-    <ul>
-      <li><strong>🇺🇸 United States (CCPA/CPRA):</strong> Rights to know, delete, and opt-out. Contact Google.</li>
-      <li><strong>🇲🇽 Mexico (LFPDPPP):</strong> ARCO rights apply. Contact Google.</li>
-      <li><strong>🇧🇷 Brazil (LGPD):</strong> Rights to access, correct, delete, revoke consent. Contact Google.</li>
-      <li><strong>🇪🇺 EU (GDPR):</strong> Rights to access, rectify, delete, port, object. Contact Google.</li>
-    </ul>
-    <p>See <a href="https://policies.google.com/privacy" target="_blank">Google’s Privacy Policy</a> for details.</p>
+  <h3>5. Regional Disclosures</h3>
+  <ul>
+    <li><strong>🇺🇸 United States – CCPA/CPRA:</strong> Users have the right to know what data is collected, request deletion, and opt out of data sharing. These rights must be exercised directly with <strong>Google</strong>.</li>
+    <li><strong>🇲🇽 Mexico – LFPDPPP:</strong> Users may exercise their ARCO rights by contacting <strong>Google</strong>.</li>
+    <li><strong>🇧🇷 Brazil – LGPD:</strong> Users have the right to confirm processing, access, correct, delete, and revoke consent. These rights apply to data handled by <strong>Google AdMob</strong>.</li>
+    <li><strong>🇪🇺 European Union – GDPR:</strong> Users have the right to access, rectify, delete, port, and object to data processing. <strong>Google</strong> acts as the Data Controller.</li>
+  </ul>
+  <p>See <a href="https://policies.google.com/privacy" target="_blank"><strong>Google’s Privacy Policy</strong></a> for specific instructions.</p>
 
-    <h2>6. Children's Privacy</h2>
-    <p>Our games are not directed to children under 13. We rely on Google Play and AdMob settings to enforce COPPA compliance.</p>
+  <h3>6. Children's Privacy (COPPA Compliance)</h3>
+  <p>Our Services are NOT intended for children under the age of 13. We rely on the age classification mechanisms provided in the Google Play Console and <strong>Google AdMob</strong> platform to ensure compliance with children’s privacy laws.</p>
 
-    <h2>7. User Control</h2>
-    <ul>
-      <li>Use Android device settings to limit ad personalization.</li>
-      <li>Use <a href="https://myadcenter.google.com/" target="_blank">Google My Ad Center</a> to manage ad preferences.</li>
-    </ul>
+  <h3>7. User Control</h3>
+  <ul>
+    <li>Limit ad personalization from your Android device settings under “Ads Settings.”</li>
+    <li>Use <a href="https://myadcenter.google.com/" target="_blank"><strong>Google My Ad Center</strong></a> to manage ad preferences.</li>
+  </ul>
 
-    <h2>8. Data Security</h2>
-    <p>We use SSL/TLS and rely on Google’s security infrastructure. No system is 100% secure.</p>
+  <h3>8. Data Security</h3>
+  <p>We use SSL/TLS encryption and rely on <strong>Google’s</strong> security infrastructure. No system is 100% secure.</p>
 
-    <h2>9. Data Retention</h2>
-    <p>Data retention is governed by Google AdMob’s policies. See their privacy policy for details.</p>
+  <h3>9. Data Retention</h3>
+  <p>Data retention periods are governed by <strong>Google AdMob’s</strong> policies. See their privacy policy for details.</p>
 
-    <h2>10. Changes</h2>
-    <p>We may update this policy. Changes will be posted with a new effective date.</p>
+  <h3>10. Changes to This Policy</h3>
+  <p>We reserve the right to update or change this Privacy Policy at any time. Changes will be posted with an updated Effective Date.</p>
 
-    <h2>11. Contact</h2>
-    <p>For questions or deletion requests, contact us at: <strong>sisarone@outlook.com</strong></p>
-  </section>
+  <h3>11. Contact</h3>
+  <p>For questions or deletion requests, contact us at: <strong>sisarone@outlook.com</strong></p>
+</section>
 
-<!-- Spanish Section -->
 <section id="es">
-  <h1>Política de Privacidad – Sisar One</h1>
+  <h2>Política de Privacidad</h2>
   <p><strong>Fecha de entrada en vigor:</strong> 2 de octubre de 2025</p>
-  <p>Esta Política de Privacidad aplica a todos los juegos móviles publicados por Sisar One que incluyan un enlace a este documento, incluyendo pero no limitándose a juegos de tipo Arcade, Plataformas, Casual e Idle disponibles en Google Play.</p>
+  <p>Esta Política de Privacidad aplica a todos los juegos móviles publicados por <strong>Sisar One</strong> que incluyan un enlace a este documento, incluyendo pero no limitándose a juegos de tipo Arcade, Plataformas, Casual e Idle disponibles en Google Play.</p>
 
-  <h2>1. Datos Recopilados (Recopilación Automática)</h2>
+  <h3>1. Datos Recopilados (Recopilación Automática)</h3>
   <p>Los siguientes tipos de datos son recopilados automáticamente por nuestro proveedor externo cuando usas nuestros juegos:</p>
   <ul>
     <li><strong>ID de publicidad del dispositivo:</strong> Identificador único y reiniciable por el usuario, utilizado para fines publicitarios.</li>
     <li><strong>Datos de uso no identificables personalmente:</strong> Duración de la sesión, progreso en niveles, modelo del dispositivo, sistema operativo y ubicación aproximada derivada de la dirección IP.</li>
   </ul>
 
-  <h2>2. Finalidad del Uso de Datos y Base Legal</h2>
+  <h3>2. Finalidad del Uso de Datos y Base Legal</h3>
   <table border="1" cellpadding="6">
     <tr><th>Finalidad</th><th>Base Legal (GDPR)</th></tr>
-    <tr><td>Publicidad a través de Google AdMob</td><td>Consentimiento del usuario</td></tr>
+    <tr><td>Publicidad a través de <strong>Google AdMob</strong></td><td>Consentimiento del usuario</td></tr>
     <tr><td>Rendimiento y análisis de la aplicación</td><td>Interés legítimo</td></tr>
   </table>
 
-  <h2>3. Responsabilidad del Tratamiento de Datos</h2>
-  <p>Sisar One actúa únicamente como editor. No recopilamos ni procesamos datos personales.</p>
-  <p><strong>Responsable del tratamiento:</strong> Google Ireland Limited (para usuarios en EEE, Reino Unido y Suiza) y/o Google LLC.</p>
-  <p><strong>Aviso:</strong> Al usar el servicio, reconoces que estás proporcionando datos a Google, no a Sisar One.</p>
+  <h3>3. Responsabilidad del Tratamiento de Datos</h3>
+  <p><strong>Sisar One</strong> actúa únicamente como editor. No recopilamos ni procesamos datos personales.</p>
+  <p><strong>Responsable del tratamiento:</strong> <strong>Google Ireland Limited</strong> (para usuarios en EEE, Reino Unido y Suiza) y/o <strong>Google LLC</strong>.</p>
+  <p><strong>Aviso:</strong> Al usar el servicio, reconoces que estás proporcionando datos a <strong>Google</strong>, no a <strong>Sisar One</strong>.</p>
 
-  <h2>4. Transferencias Internacionales</h2>
-  <p>Los datos pueden ser procesados en servidores fuera de tu país por Google AdMob bajo reglas corporativas vinculantes (BCR) o cláusulas contractuales estándar (SCC).</p>
+  <h3>4. Transferencias Internacionales</h3>
+  <p>Los datos pueden ser procesados en servidores fuera de tu país por <strong>Google AdMob</strong>, bajo reglas corporativas vinculantes (BCR) o cláusulas contractuales estándar (SCC).</p>
 
-  <h2>5. Avisos Regionales</h2>
+  <h3>5. Avisos Regionales</h3>
   <ul>
-    <li><strong>🇺🇸 Estados Unidos (CCPA/CPRA):</strong> Derechos a conocer, eliminar y optar por no compartir. Contactar a Google.</li>
-    <li><strong>🇲🇽 México (LFPDPPP):</strong> Derechos ARCO aplican. Contactar a Google.</li>
-    <li><strong>🇧🇷 Brasil (LGPD):</strong> Derechos de acceso, corrección, eliminación y revocación de consentimiento. Contactar a Google.</li>
-    <li><strong>🇪🇺 Unión Europea (GDPR):</strong> Derechos de acceso, rectificación, eliminación, portabilidad y oposición. Contactar a Google.</li>
+    <li><strong>🇺🇸 Estados Unidos (CCPA/CPRA):</strong> Derechos a conocer, eliminar y optar por no compartir. Contactar a <strong>Google</strong>.</li>
+    <li><strong>🇲🇽 México (LFPDPPP):</strong> Derechos ARCO aplican. Contactar a <strong>Google</strong>.</li>
+    <li><strong>🇧🇷 Brasil (LGPD):</strong> Derechos de acceso, corrección, eliminación y revocación de consentimiento. Contactar a <strong>Google AdMob</strong>.</li>
+    <li><strong>🇪🇺 Unión Europea (GDPR):</strong> Derechos de acceso, rectificación, eliminación, portabilidad y oposición. Contactar a <strong>Google</strong>.</li>
   </ul>
-  <p>Consulta la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a> para más detalles.</p>
+  <p>Consulta la <a href="https://policies.google.com/privacy" target="_blank"><strong>Política de Privacidad de Google</strong></a> para más detalles.</p>
 
-  <h2>6. Privacidad Infantil</h2>
-  <p>Nuestros juegos no están dirigidos a menores de 13 años. Confiamos en las configuraciones de Google Play y AdMob para cumplir con COPPA.</p>
+  <h3>6. Privacidad Infantil</h3>
+  <p>Nuestros juegos no están dirigidos a menores de 13 años. Confiamos en las configuraciones de <strong>Google Play</strong> y <strong>AdMob</strong> para cumplir con COPPA.</p>
 
-  <h2>7. Control del Usuario</h2>
+  <h3>7. Control del Usuario</h3>
   <ul>
     <li>Usa la configuración de tu dispositivo Android para limitar la personalización de anuncios.</li>
-    <li>Usa <a href="https://myadcenter.google.com/" target="_blank">Google My Ad Center</a> para administrar tus preferencias publicitarias.</li>
+    <li>Usa <a href="https://myadcenter.google.com/" target="_blank"><strong>Google My Ad Center</strong></a> para administrar tus preferencias publicitarias.</li>
   </ul>
 
-  <h2>8. Seguridad de los Datos</h2>
-  <p>Utilizamos cifrado SSL/TLS y confiamos en la infraestructura de seguridad de Google. Ningún sistema es 100% seguro.</p>
+  <h3>8. Seguridad de los Datos</h3>
+  <p>Utilizamos cifrado SSL/TLS y confiamos en la infraestructura de seguridad de <strong>Google</strong>. Ningún sistema es 100% seguro.</p>
 
-  <h2>9. Retención de Datos</h2>
-  <p>La retención de datos está regida por las políticas de Google AdMob. Consulta su política de privacidad para más detalles.</p>
+  <h3>9. Retención de Datos</h3>
+  <p>La retención de datos está regida por las políticas de <strong>Google AdMob</strong>. Consulta su política de privacidad para más detalles.</p>
 
-  <h2>10. Cambios</h2>
+  <h3>10. Cambios</h3>
   <p>Podemos actualizar esta política. Los cambios se publicarán con una nueva fecha de entrada en vigor.</p>
 
-  <h2>11. Contacto</h2>
+  <h3>11. Contacto</h3>
   <p>Para preguntas o solicitudes de eliminación, contáctanos en: <strong>sisarone@outlook.com</strong></p>
 </section>
 
-<!-- Portuguese Section -->
 <section id="pt">
-  <h1>Política de Privacidade – Sisar One</h1>
+  <h2>Política de Privacidade</h2>
   <p><strong>Data de Vigência:</strong> 2 de outubro de 2025</p>
-  <p>Esta Política de Privacidade aplica-se a todos os jogos móveis publicados pela Sisar One que incluam um link para este documento, incluindo, mas não se limitando a jogos do tipo Arcade, Plataforma, Casual e Idle disponíveis na Google Play.</p>
+  <p>Esta Política de Privacidade aplica-se a todos os jogos móveis publicados pela <strong>Sisar One</strong> que incluam um link para este documento, incluindo, mas não se limitando a jogos do tipo Arcade, Plataforma, Casual e Idle disponíveis na Google Play.</p>
 
-  <h2>1. Dados Coletados (Coleta Automática)</h2>
+  <h3>1. Dados Coletados (Coleta Automática)</h3>
   <p>Os seguintes tipos de dados são coletados automaticamente por nosso provedor terceirizado quando você utiliza nossos jogos:</p>
   <ul>
     <li><strong>ID de publicidade do dispositivo:</strong> Identificador único e redefinível pelo usuário, utilizado para fins publicitários.</li>
     <li><strong>Dados de uso não identificáveis pessoalmente:</strong> Duração da sessão, progresso em níveis, modelo do dispositivo, sistema operacional e localização aproximada derivada do endereço IP.</li>
   </ul>
 
-  <h2>2. Finalidade do Uso de Dados e Base Legal</h2>
+  <h3>2. Finalidade do Uso de Dados e Base Legal</h3>
   <table border="1" cellpadding="6">
     <tr><th>Finalidade</th><th>Base Legal (GDPR)</th></tr>
-    <tr><td>Publicidade via Google AdMob</td><td>Consentimento do usuário</td></tr>
+    <tr><td>Publicidade via <strong>Google AdMob</strong></td><td>Consentimento do usuário</td></tr>
     <tr><td>Desempenho e análise do aplicativo</td><td>Interesse legítimo</td></tr>
   </table>
 
-  <h2>3. Responsabilidade pelo Tratamento de Dados</h2>
-  <p>A Sisar One atua apenas como publicadora. Não coletamos nem processamos dados pessoais.</p>
-  <p><strong>Controlador de dados:</strong> Google Ireland Limited (para usuários no EEE, Reino Unido e Suíça) e/ou Google LLC.</p>
-  <p><strong>Aviso:</strong> Ao utilizar o serviço, você reconhece que está fornecendo dados ao Google, não à Sisar One.</p>
+  <h3>3. Responsabilidade pelo Tratamento de Dados</h3>
+  <p><strong>Sisar One</strong> atua apenas como publicadora. Não coletamos nem processamos dados pessoais.</p>
+  <p><strong>Controlador de dados:</strong> <strong>Google Ireland Limited</strong> (para usuários no EEE, Reino Unido e Suíça) e/ou <strong>Google LLC</strong>.</p>
+  <p><strong>Aviso:</strong> Ao utilizar o serviço, você reconhece que está fornecendo dados ao <strong>Google</strong>, não à <strong>Sisar One</strong>.</p>
 
-  <h2>4. Transferências Internacionais</h2>
-  <p>Os dados podem ser processados em servidores fora do seu país pelo Google AdMob, conforme regras corporativas vinculativas (BCR) ou cláusulas contratuais padrão (SCC).</p>
+  <h3>4. Transferências Internacionais</h3>
+  <p>Os dados podem ser processados em servidores fora do seu país pelo <strong>Google AdMob</strong>, conforme regras corporativas vinculativas (BCR) ou cláusulas contratuais padrão (SCC).</p>
 
-  <h2>5. Avisos Regionais</h2>
+  <h3>5. Avisos Regionais</h3>
   <ul>
-    <li><strong>🇺🇸 Estados Unidos (CCPA/CPRA):</strong> Direitos de saber, excluir e optar por não compartilhar. Contate o Google.</li>
-    <li><strong>🇲🇽 México (LFPDPPP):</strong> Direitos ARCO aplicáveis. Contate o Google.</li>
-    <li><strong>🇧🇷 Brasil (LGPD):</strong> Direitos de acesso, correção, exclusão e revogação de consentimento. Contate o Google.</li>
-    <li><strong>🇪🇺 União Europeia (GDPR):</strong> Direitos de acesso, retificação, exclusão, portabilidade e oposição. Contate o Google.</li>
+    <li><strong>🇺🇸 Estados Unidos (CCPA/CPRA):</strong> Direitos de saber, excluir e optar por não compartilhar. Contate o <strong>Google</strong>.</li>
+    <li><strong>🇲🇽 México (LFPDPPP):</strong> Direitos ARCO aplicáveis. Contate o <strong>Google</strong>.</li>
+    <li><strong>🇧🇷 Brasil (LGPD):</strong> Direitos de acesso, correção, exclusão e revogação de consentimento. Contate o <strong>Google AdMob</strong>.</li>
+    <li><strong>🇪🇺 União Europeia (GDPR):</strong> Direitos de acesso, retificação, exclusão, portabilidade e oposição. Contate o <strong>Google</strong>.</li>
   </ul>
-  <p>Consulte a <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a> para mais detalhes.</p>
+  <p>Consulte a <a href="https://policies.google.com/privacy" target="_blank"><strong>Política de Privacidade do Google</strong></a> para mais detalhes.</p>
 
-  <h2>6. Privacidade Infantil</h2>
-  <p>Nossos jogos não são direcionados a menores de 13 anos. Utilizamos as configurações da Google Play e do AdMob para garantir conformidade com a COPPA.</p>
+  <h3>6. Privacidade Infantil</h3>
+  <p>Nossos jogos não são direcionados a menores de 13 anos. Utilizamos as configurações da <strong>Google Play</strong> e do <strong>AdMob</strong> para garantir conformidade com a COPPA.</p>
 
-  <h2>7. Controle do Usuário</h2>
+  <h3>7. Controle do Usuário</h3>
   <ul>
     <li>Use as configurações do seu dispositivo Android para limitar a personalização de anúncios.</li>
-    <li>Use o <a href="https://myadcenter.google.com/" target="_blank">Google My Ad Center</a> para gerenciar suas preferências de anúncios.</li>
+    <li>Use o <a href="https://myadcenter.google.com/" target="_blank"><strong>Google My Ad Center</strong></a> para gerenciar suas preferências de anúncios.</li>
   </ul>
 
-  <h2>8. Segurança dos Dados</h2>
-  <p>Utilizamos criptografia SSL/TLS e confiamos na infraestrutura de segurança do Google. Nenhum sistema é 100% seguro.</p>
+  <h3>8. Segurança dos Dados</h3>
+  <p>Utilizamos criptografia SSL/TLS e confiamos na infraestrutura de segurança do <strong>Google</strong>. Nenhum sistema é 100% seguro.</p>
 
-  <h2>9. Retenção de Dados</h2>
-  <p>A retenção de dados é regida pelas políticas do Google AdMob. Consulte a política de privacidade deles para mais detalhes.</p>
+  <h3>9. Retenção de Dados</h3>
+  <p>A retenção de dados é regida pelas políticas do <strong>Google AdMob</strong>. Consulte a política de privacidade deles para mais detalhes.</p>
 
-  <h2>10. Alterações</h2>
+  <h3>10. Alterações</h3>
   <p>Podemos atualizar esta política. As alterações serão publicadas com uma nova data de vigência.</p>
 
-  <h2>11. Contato</h2>
+  <h3>11. Contato</h3>
   <p>Para dúvidas ou solicitações de exclusão, entre em contato conosco: <strong>sisarone@outlook.com</strong></p>
 </section>
 
-<!-- Ge<!-- German Section -->
 <section id="de">
-  <h1>Datenschutzrichtlinie – Sisar One</h1>
+  <h2>Datenschutzrichtlinie</h2>
   <p><strong>Gültigkeitsdatum:</strong> 2. Oktober 2025</p>
-  <p>Diese Datenschutzrichtlinie gilt für alle mobilen Spiele, die von Sisar One veröffentlicht wurden und einen Link zu diesem Dokument enthalten, einschließlich aber nicht beschränkt auf Arcade-, Plattform-, Casual- und Idle-Spiele im Google Play Store.</p>
+  <p>Diese Datenschutzrichtlinie gilt für alle mobilen Spiele, die von <strong>Sisar One</strong> veröffentlicht wurden und einen Link zu diesem Dokument enthalten, einschließlich aber nicht beschränkt auf Arcade-, Plattform-, Casual- und Idle-Spiele im Google Play Store.</p>
 
-  <h2>1. Erhobene Daten (Automatische Erfassung)</h2>
+  <h3>1. Erhobene Daten (Automatische Erfassung)</h3>
   <p>Die folgenden Datenarten werden automatisch von unserem Drittanbieter erfasst, wenn Sie unsere Spiele nutzen:</p>
   <ul>
     <li><strong>Werbe-ID des Geräts:</strong> Eine eindeutige, vom Nutzer zurücksetzbare Kennung für Werbezwecke.</li>
     <li><strong>Nicht personenbezogene Nutzungsdaten:</strong> Sitzungsdauer, Level-Fortschritt, Gerätemodell, Betriebssystem und ungefähre geografische Position basierend auf der IP-Adresse.</li>
   </ul>
 
-  <h2>2. Zweck der Datennutzung und Rechtsgrundlage</h2>
+  <h3>2. Zweck der Datennutzung und Rechtsgrundlage</h3>
   <table border="1" cellpadding="6">
     <tr><th>Zweck</th><th>Rechtsgrundlage (DSGVO)</th></tr>
-    <tr><td>Werbung über Google AdMob</td><td>Einwilligung des Nutzers</td></tr>
+    <tr><td>Werbung über <strong>Google AdMob</strong></td><td>Einwilligung des Nutzers</td></tr>
     <tr><td>Analyse und Verbesserung der App-Leistung</td><td>Berechtigtes Interesse</td></tr>
   </table>
 
-  <h2>3. Verantwortlichkeit für die Datenverarbeitung</h2>
-  <p>Sisar One agiert ausschließlich als Herausgeber. Wir sammeln oder verarbeiten keine personenbezogenen Daten.</p>
-  <p><strong>Verantwortlicher:</strong> Google Ireland Limited (für Nutzer im EWR, Vereinigten Königreich und der Schweiz) und/oder Google LLC.</p>
-  <p><strong>Hinweis:</strong> Durch die Nutzung des Dienstes erkennen Sie an, dass Sie Daten an Google und nicht an Sisar One übermitteln.</p>
+  <h3>3. Verantwortlichkeit für die Datenverarbeitung</h3>
+  <p><strong>Sisar One</strong> agiert ausschließlich als Herausgeber. Wir sammeln oder verarbeiten keine personenbezogenen Daten.</p>
+  <p><strong>Verantwortlicher:</strong> <strong>Google Ireland Limited</strong> (für Nutzer im EWR, Vereinigten Königreich und der Schweiz) und/oder <strong>Google LLC</strong>.</p>
+  <p><strong>Hinweis:</strong> Durch die Nutzung des Dienstes erkennen Sie an, dass Sie Daten an <strong>Google</strong> und nicht an <strong>Sisar One</strong> übermitteln.</p>
 
-  <h2>4. Internationale Datenübertragungen</h2>
-  <p>Daten können auf Servern außerhalb Ihres Landes von Google AdMob verarbeitet werden, gemäß verbindlichen Unternehmensregeln (BCR) oder Standardvertragsklauseln (SCC).</p>
+  <h3>4. Internationale Datenübertragungen</h3>
+  <p>Daten können auf Servern außerhalb Ihres Landes von <strong>Google AdMob</strong> verarbeitet werden, gemäß verbindlichen Unternehmensregeln (BCR) oder Standardvertragsklauseln (SCC).</p>
 
-  <h2>5. Regionale Hinweise</h2>
+  <h3>5. Regionale Hinweise</h3>
   <ul>
-    <li><strong>🇺🇸 Vereinigte Staaten (CCPA/CPRA):</strong> Rechte auf Auskunft, Löschung und Widerspruch. Kontaktieren Sie Google.</li>
-    <li><strong>🇲🇽 Mexiko (LFPDPPP):</strong> ARCO-Rechte gelten. Kontaktieren Sie Google.</li>
-    <li><strong>🇧🇷 Brasilien (LGPD):</strong> Rechte auf Zugriff, Berichtigung, Löschung und Widerruf der Einwilligung. Kontaktieren Sie Google.</li>
-    <li><strong>🇪🇺 Europäische Union (DSGVO):</strong> Rechte auf Zugriff, Berichtigung, Löschung, Datenübertragbarkeit und Widerspruch. Kontaktieren Sie Google.</li>
+    <li><strong>🇺🇸 Vereinigte Staaten (CCPA/CPRA):</strong> Rechte auf Auskunft, Löschung und Widerspruch. Kontaktieren Sie <strong>Google</strong>.</li>
+    <li><strong>🇲🇽 Mexiko (LFPDPPP):</strong> ARCO-Rechte gelten. Kontaktieren Sie <strong>Google</strong>.</li>
+    <li><strong>🇧🇷 Brasilien (LGPD):</strong> Rechte auf Zugriff, Berichtigung, Löschung und Widerruf der Einwilligung. Kontaktieren Sie <strong>Google AdMob</strong>.</li>
+    <li><strong>🇪🇺 Europäische Union (DSGVO):</strong> Rechte auf Zugriff, Berichtigung, Löschung, Datenübertragbarkeit und Widerspruch. Kontaktieren Sie <strong>Google</strong>.</li>
   </ul>
-  <p>Weitere Informationen finden Sie in der <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinie von Google</a>.</p>
+  <p>Weitere Informationen finden Sie in der <a href="https://policies.google.com/privacy" target="_blank"><strong>Datenschutzrichtlinie von Google</strong></a>.</p>
 
-  <h2>6. Datenschutz für Kinder</h2>
-  <p>Unsere Spiele richten sich nicht an Kinder unter 13 Jahren. Wir verlassen uns auf die Einstellungen in Google Play und AdMob zur Einhaltung von COPPA.</p>
+  <h3>6. Datenschutz für Kinder</h3>
+  <p>Unsere Spiele richten sich nicht an Kinder unter 13 Jahren. Wir verlassen uns auf die Einstellungen in <strong>Google Play</strong> und <strong>AdMob</strong> zur Einhaltung von COPPA.</p>
 
-  <h2>7. Kontrolle durch den Nutzer</h2>
+  <h3>7. Kontrolle durch den Nutzer</h3>
   <ul>
     <li>Verwenden Sie die Einstellungen Ihres Android-Geräts, um personalisierte Werbung zu deaktivieren.</li>
-    <li>Verwenden Sie das <a href="https://myadcenter.google.com/" target="_blank">Google My Ad Center</a>, um Ihre Werbeeinstellungen zu verwalten.</li>
+    <li>Verwenden Sie das <a href="https://myadcenter.google.com/" target="_blank"><strong>Google My Ad Center</strong></a>, um Ihre Werbeeinstellungen zu verwalten.</li>
   </ul>
 
-  <h2>8. Datensicherheit</h2>
-  <p>Wir verwenden SSL/TLS-Verschlüsselung und verlassen uns auf die Sicherheitsinfrastruktur von Google. Kein System ist absolut sicher.</p>
+  <h3>8. Datensicherheit</h3>
+  <p>Wir verwenden SSL/TLS-Verschlüsselung und verlassen uns auf die Sicherheitsinfrastruktur von <strong>Google</strong>. Kein System ist absolut sicher.</p>
 
-  <h2>9. Datenaufbewahrung</h2>
-  <p>Die Aufbewahrungsfristen werden durch die Richtlinien von Google AdMob geregelt. Weitere Informationen finden Sie in deren Datenschutzrichtlinie.</p>
+  <h3>9. Datenaufbewahrung</h3>
+  <p>Die Aufbewahrungsfristen werden durch die Richtlinien von <strong>Google AdMob</strong> geregelt. Weitere Informationen finden Sie in deren Datenschutzrichtlinie.</p>
 
-  <h2>10. Änderungen</h2>
+  <h3>10. Änderungen</h3>
   <p>Wir behalten uns das Recht vor, diese Richtlinie zu aktualisieren. Änderungen werden mit einem neuen Gültigkeitsdatum veröffentlicht.</p>
 
-  <h2>11. Kontakt</h2>
+  <h3>11. Kontakt</h3>
   <p>Bei Fragen oder Löschanfragen kontaktieren Sie uns bitte unter: <strong>sisarone@outlook.com</strong></p>
 </section>
 
-<!-- Japanese Section -->
-<section id="ja">
-  <h1>プライバシーポリシー – Sisar One</h1>
-  <p><strong>施行日:</strong> 2025年10月2日</p>
-  <p>このプライバシーポリシーは、Sisar Oneが公開したすべてのモバイルゲームに適用されます。対象となるゲームには、Google Playで提供されているアーケード、プラットフォーマー、カジュアル、アイドルゲームなどが含まれます。</p>
+<section id="fr">
+  <h2>Politique de Confidentialité</h2>
+  <p><strong>Date d’entrée en vigueur :</strong> 2 octobre 2025</p>
+  <p>Cette politique de confidentialité s’applique à tous les jeux mobiles publiés par <strong>Sisar One</strong> qui contiennent un lien vers ce document, y compris mais sans s’y limiter les jeux de type Arcade, Plateforme, Casual et Idle disponibles sur Google Play.</p>
 
-  <h2>1. 収集されるデータ（自動収集）</h2>
-  <p>当社の第三者プロバイダー（Google AdMob）によって、以下のデータが自動的に収集されます：</p>
+  <h3>1. Données collectées (Collecte automatique)</h3>
+  <p>Les types de données suivants sont collectés automatiquement par notre fournisseur tiers lorsque vous utilisez nos jeux :</p>
+  <ul>
+    <li><strong>ID publicitaire de l’appareil :</strong> Identifiant unique réinitialisable par l’utilisateur, utilisé à des fins publicitaires.</li>
+    <li><strong>Données d’utilisation non identifiables :</strong> Durée de session, progression dans les niveaux, modèle de l’appareil, système d’exploitation et localisation approximative dérivée de l’adresse IP.</li>
+  </ul>
+
+  <h3>2. Finalité de l’utilisation des données et base légale</h3>
+  <table border="1" cellpadding="6">
+    <tr><th>Finalité</th><th>Base légale (RGPD)</th></tr>
+    <tr><td>Publicité via <strong>Google AdMob</strong></td><td>Consentement de l’utilisateur</td></tr>
+    <tr><td>Performance et analyse de l’application</td><td>Intérêt légitime</td></tr>
+  </table>
+
+  <h3>3. Responsabilité du traitement des données</h3>
+  <p><strong>Sisar One</strong> agit uniquement en tant qu’éditeur. Nous ne collectons ni ne traitons de données personnelles.</p>
+  <p><strong>Responsable du traitement :</strong> <strong>Google Ireland Limited</strong> (pour les utilisateurs dans l’EEE, le Royaume-Uni et la Suisse) et/ou <strong>Google LLC</strong>.</p>
+  <p><strong>Avertissement :</strong> En utilisant le service, vous reconnaissez fournir vos données à <strong>Google</strong>, et non à <strong>Sisar One</strong>.</p>
+
+  <h3>4. Transferts internationaux de données</h3>
+  <p>Les données peuvent être traitées sur des serveurs situés en dehors de votre pays par <strong>Google AdMob</strong>, conformément aux règles d’entreprise contraignantes (BCR) ou aux clauses contractuelles types (SCC).</p>
+
+  <h3>5. Informations régionales</h3>
+  <ul>
+    <li><strong>🇺🇸 États-Unis (CCPA/CPRA) :</strong> Droits d’accès, de suppression et d’opposition. Contactez <strong>Google</strong>.</li>
+    <li><strong>🇲🇽 Mexique (LFPDPPP) :</strong> Droits ARCO applicables. Contactez <strong>Google</strong>.</li>
+    <li><strong>🇧🇷 Brésil (LGPD) :</strong> Droits d’accès, de rectification, de suppression et de révocation du consentement. Contactez <strong>Google AdMob</strong>.</li>
+    <li><strong>🇪🇺 Union européenne (RGPD) :</strong> Droits d’accès, de rectification, de suppression, de portabilité et d’opposition. Contactez <strong>Google</strong>.</li>
+  </ul>
+  <p>Consultez la <a href="https://policies.google.com/privacy" target="_blank"><strong>Politique de confidentialité de Google</strong></a> pour plus d’informations.</p>
+
+  <h3>6. Confidentialité des enfants</h3>
+  <p>Nos jeux ne sont pas destinés aux enfants de moins de 13 ans. Nous nous appuyons sur les paramètres de <strong>Google Play</strong> et de <strong>AdMob</strong> pour garantir la conformité à la loi COPPA.</p>
+
+  <h3>7. Contrôle de l’utilisateur</h3>
+  <ul>
+    <li>Utilisez les paramètres de votre appareil Android pour limiter la personnalisation des annonces.</li>
+    <li>Utilisez <a href="https://myadcenter.google.com/" target="_blank"><strong>Google My Ad Center</strong></a> pour gérer vos préférences publicitaires.</li>
+  </ul>
+
+  <h3>8. Sécurité des données</h3>
+  <p>Nous utilisons le chiffrement SSL/TLS et nous nous appuyons sur l’infrastructure de sécurité de <strong>Google</strong>. Aucun système n’est totalement sécurisé.</p>
+
+  <h3>9. Conservation des données</h3>
+  <p>La durée de conservation des données est régie par les politiques de <strong>Google AdMob</strong>. Consultez leur politique de confidentialité pour plus de détails.</p>
+
+  <h3>10. Modifications</h3>
+  <p>Nous pouvons mettre à jour cette politique. Les modifications seront publiées avec une nouvelle date d’entrée en vigueur.</p>
+
+  <h3>11. Contact</h3>
+  <p>Pour toute question ou demande de suppression, contactez-nous à l’adresse suivante : <strong>sisarone@outlook.com</strong></p>
+</section>
+
+<section id="ja">
+  <h2>プライバシーポリシー</h2>
+  <p><strong>施行日：</strong>2025年10月2日</p>
+  <p>このプライバシーポリシーは、<strong>Sisar One</strong>が公開したすべてのモバイルゲームに適用されます。対象となるゲームには、Google Playで提供されているアーケード、プラットフォーム、カジュアル、アイドルゲームなどが含まれます。</p>
+
+  <h3>1. 収集されるデータ（自動収集）</h3>
+  <p>当社の第三者プロバイダーによって、以下のデータが自動的に収集されます：</p>
   <ul>
     <li><strong>広告ID：</strong> 広告目的で使用される、ユーザーがリセット可能な一意の識別子。</li>
     <li><strong>非個人識別情報：</strong> ゲームセッションの長さ、レベル進行、デバイスモデル、OS、IPアドレスから推定されるおおよその位置情報など。</li>
   </ul>
 
-  <h2>2. データ利用目的と法的根拠</h2>
+  <h3>2. データ利用目的と法的根拠</h3>
   <table border="1" cellpadding="6">
     <tr><th>利用目的</th><th>法的根拠（GDPR）</th></tr>
-    <tr><td>Google AdMobによる広告表示</td><td>ユーザーの同意</td></tr>
+    <tr><td><strong>Google AdMob</strong>による広告表示</td><td>ユーザーの同意</td></tr>
     <tr><td>アプリのパフォーマンス分析と改善</td><td>正当な利益</td></tr>
   </table>
 
-  <h2>3. データ管理責任</h2>
-  <p>Sisar Oneはアプリのパブリッシャーとしてのみ機能し、個人情報を収集・処理することはありません。</p>
-  <p><strong>データ管理者：</strong> EEA、英国、スイスのユーザーに対してはGoogle Ireland Limited、それ以外はGoogle LLCが管理者です。</p>
-  <p><strong>免責事項：</strong> 本サービスの利用により、ユーザーはSisar OneではなくGoogleにデータを提供することを認識するものとします。</p>
+  <h3>3. データ管理責任</h3>
+  <p><strong>Sisar One</strong>はパブリッシャーとしてのみ機能し、個人情報を収集・処理することはありません。</p>
+  <p><strong>データ管理者：</strong> <strong>Google Ireland Limited</strong>（EEA、英国、スイスのユーザー向け）および<strong>Google LLC</strong>。</p>
+  <p><strong>免責事項：</strong> 本サービスの利用により、ユーザーは<strong>Sisar One</strong>ではなく<strong>Google</strong>にデータを提供することを認識するものとします。</p>
 
-  <h2>4. 国際データ転送</h2>
-  <p>Google AdMobは、ユーザーの国以外のサーバーでデータを処理する場合があります。これらの転送は、BCR（拘束的企業規則）またはSCC（標準契約条項）に基づいて保護されます。</p>
+  <h3>4. 国際データ転送</h3>
+  <p>データは、<strong>Google AdMob</strong>によって、ユーザーの国以外のサーバーで処理される場合があります。これらの転送は、<strong>Google</strong>の拘束的企業規則（BCR）または標準契約条項（SCC）に基づいて保護されます。</p>
 
-  <h2>5. 地域別の通知</h2>
+  <h3>5. 地域別の通知</h3>
   <ul>
-    <li><strong>🇺🇸 米国（CCPA/CPRA）：</strong> データの収集内容の確認、削除、共有の拒否などの権利。Googleに連絡してください。</li>
-    <li><strong>🇲🇽 メキシコ（LFPDPPP）：</strong> ARCO権（アクセス、訂正、キャンセル、異議申立て）。Googleに連絡してください。</li>
-    <li><strong>🇧🇷 ブラジル（LGPD）：</strong> アクセス、訂正、削除、同意の撤回などの権利。Googleに連絡してください。</li>
-    <li><strong>🇪🇺 欧州連合（GDPR）：</strong> アクセス、訂正、削除、データポータビリティ、異議申立ての権利。Googleに連絡してください。</li>
+    <li><strong>🇺🇸 米国（CCPA/CPRA）：</strong> データの収集内容の確認、削除、共有の拒否などの権利。<strong>Google</strong>に連絡してください。</li>
+    <li><strong>🇲🇽 メキシコ（LFPDPPP）：</strong> ARCO権（アクセス、訂正、キャンセル、異議申立て）。<strong>Google</strong>に連絡してください。</li>
+    <li><strong>🇧🇷 ブラジル（LGPD）：</strong> アクセス、訂正、削除、同意の撤回などの権利。<strong>Google AdMob</strong>に連絡してください。</li>
+    <li><strong>🇪🇺 欧州連合（GDPR）：</strong> アクセス、訂正、削除、データポータビリティ、異議申立ての権利。<strong>Google</strong>に連絡してください。</li>
   </ul>
-  <p>詳細は <a href="https://policies.google.com/privacy" target="_blank">Googleのプライバシーポリシー</a> をご覧ください。</p>
+  <p>詳細は<a href="https://policies.google.com/privacy" target="_blank"><strong>Googleのプライバシーポリシー</strong></a>をご覧ください。</p>
 
-  <h2>6. 子供のプライバシー</h2>
-  <p>当社のゲームは13歳未満の子供を対象としていません。COPPA（児童オンラインプライバシー保護法）に準拠するため、Google PlayとAdMobの設定を使用しています。</p>
+  <h3>6. 子供のプライバシー</h3>
+  <p>当社のゲームは13歳未満の子供を対象としていません。COPPA（児童オンラインプライバシー保護法）に準拠するため、<strong>Google Play</strong>と<strong>AdMob</strong>の設定を使用しています。</p>
 
-  <h2>7. ユーザーによる制御</h2>
+  <h3>7. ユーザーによる制御</h3>
   <ul>
     <li>Androidデバイスの設定から広告のパーソナライズを制限できます。</li>
-    <li><a href="https://myadcenter.google.com/" target="_blank">Google My Ad Center</a> を使用して広告設定を管理できます。</li>
+    <li><a href="https://myadcenter.google.com/" target="_blank"><strong>Google My Ad Center</strong></a>を使用して広告設定を管理できます。</li>
   </ul>
 
-  <h2>8. データの安全性</h2>
-  <p>SSL/TLS暗号化を使用し、Googleのセキュリティインフラに依存しています。完全な安全性は保証できません。</p>
+  <h3>8. データの安全性</h3>
+  <p>SSL/TLS暗号化を使用し、<strong>Google</strong>のセキュリティインフラに依存しています。完全な安全性は保証できません。</p>
 
-  <h2>9. データ保持</h2>
-  <p>データの保持期間はGoogle AdMobのポリシーに従います。詳細はGoogleのプライバシーポリシーをご確認ください。</p>
+  <h3>9. データ保持</h3>
+  <p>データの保持期間は<strong>Google AdMob</strong>のポリシーに従います。詳細はGoogleのプライバシーポリシーをご確認ください。</p>
 
-  <h2>10. ポリシーの変更</h2>
+  <h3>10. ポリシーの変更</h3>
   <p>本ポリシーは随時更新される可能性があります。変更は新しい施行日とともに掲載されます。</p>
 
-  <h2>11. お問い合わせ</h2>
+  <h3>11. お問い合わせ</h3>
   <p>ご質問や削除依頼については、以下のメールアドレスまでご連絡ください：<strong>sisarone@outlook.com</strong></p>
 </section>
